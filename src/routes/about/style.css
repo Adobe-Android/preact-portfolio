@@ -1,0 +1,71 @@
+.profile {
+	padding-top: 1em;
+	/* Center content */
+	display: flex;
+	justify-content: center;
+	/* Header style */
+	font-weight: 400;
+	font-size: 3.3em;
+}
+
+/* Section separator */
+.sectionBorder {
+	border-top: 0.1em solid #4d4d4d;
+}
+
+.blockText {
+	font-weight: 300;
+	font-size: 2em;
+	text-align: left;
+	border-left: 5px solid teal;
+	margin: 20px 0;
+	padding-left: 1.5rem;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 3em;
+}
+
+@media only screen and (max-width: 550px) {
+	.blockText {
+		font-size: 1.6em;
+	}
+	.container {
+		width: 90%;
+	}
+	.profile {
+		font-size: 3.1em;
+	}
+}
+
+@media only screen and (max-width: 462px) {
+	.blockText {
+		font-size: 1.7em;
+	}
+	.container {
+		width: 90%;
+	}
+	.profile {
+		font-size: 2.9em;
+	}
+}
+
+@media only screen and (max-width: 355px) {
+	.blockText {
+		font-size: 1.3em;
+	}
+	.profile {
+		font-size: 2.8em;
+	}
+}
+
+@media only screen and (max-width: 315px) {
+	.blockText {
+		font-size: 1.2em;
+	}
+	.profile {
+		font-size: 2.6em;
+	}
+}

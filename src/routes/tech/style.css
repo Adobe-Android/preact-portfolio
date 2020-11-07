@@ -1,0 +1,76 @@
+.profile {
+	padding-top: 1em;
+	/* Center content */
+	display: flex;
+	justify-content: center;
+	/* Header style */
+	font-weight: 400;
+	font-size: 3.3em;
+}
+
+/* Section separator */
+.sectionBorder {
+	border-top: 0.1em solid #4d4d4d;
+}
+
+.container {
+	width: 50%;
+	margin: auto;
+}
+
+/* Center align icon blocks */
+.iconContainer {
+	text-align: center;
+	padding-bottom: 3em;
+}
+
+/* Targets each icon section to make a row */
+.iconBlock {
+	display: inline-block;
+	padding: 0.5em;
+	padding-top: 1em;
+}
+
+/* Limit icon size */
+.icon {
+	width: 5em;
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.profile {
+		font-size: 3.1em;
+	}
+}
+
+@media only screen and (max-width: 462px) {
+	.container {
+		width: 90%;
+	}
+	.profile {
+		font-size: 2.9em;
+	}
+	.icon {
+		width: 4.2em;
+	}
+}
+
+@media only screen and (max-width: 355px) {
+	.profile {
+		font-size: 2.8em;
+	}
+}
+
+@media only screen and (max-width: 315px) {
+	.profile {
+		font-size: 2.6em;
+	}
+	.icon {
+		width: 3.9em;
+	}
+}

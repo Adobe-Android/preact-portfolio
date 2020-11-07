@@ -1,0 +1,72 @@
+.home {
+	padding: 5em 0;
+	min-height: 100%;
+	width: 100%;
+	background: url(../../assets/images/home-hero-bg.svg),
+	linear-gradient(
+	  180deg,
+	  #313131 30.12%,
+	  #4d4d4d 192.47%
+	);
+}
+
+/* Round portrait edges */
+.portrait {
+	border: 2px solid #f6f6f6;
+	border-radius: 200px;
+	max-width: 20em;
+}
+
+.typed {
+	font-size: 1.8em;
+	padding-bottom: 1em;
+}
+
+.typing {
+	padding-left: 0.3em;
+}
+
+/* Center content */
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+/* Header style */
+.center h1 {
+	color: #4db6ac;
+	font-weight: 400;
+	font-size: 3.3em;
+}
+
+/* Center align icon blocks */
+.iconContainer {
+	text-align: center;
+}
+
+/* Targets each icon section to make a row */
+.iconBlock {
+	display: inline-block;
+	padding: 0.5em;
+}
+
+/* Limit icon size */
+.icon {
+	width: 3.5em;
+}
+
+@media only screen and (max-width: 315px) {
+	.typed {
+		font-size: 1.6em;
+		padding-bottom: 1em;
+	}
+	.portrait {
+		width: 90%;
+		height: 90%;
+	}
+	.center h1 {
+		color: #4db6ac;
+		font-weight: 400;
+		font-size: 2.8em;
+	}
+}
