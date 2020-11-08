@@ -13,9 +13,9 @@ const App = () => (
 	<div id="app">
 		<Header />
 		<Router>
-			<Home path="/" />
-			<Profile path="/about/" />
-			<Tech path="/tech/" />
+			<Home path={process.env.PUBLIC_URL + '/'} />
+			<Profile path={process.env.PUBLIC_URL + '/about/'} />
+			<Tech path={process.env.PUBLIC_URL + '/tech/'} />
 		</Router>
 		<Footer />
 	</div>
