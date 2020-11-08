@@ -13,10 +13,6 @@ const Tech = () => (
 				<p>Preact</p>
 			</div>
 			<div class={style.iconBlock}>
-				<img alt="Angular" class={style.icon} src="/assets/tech/angular.svg" loading="lazy" />
-				<p>Angular</p>
-			</div>
-			<div class={style.iconBlock}>
 				<img alt="JavaScript" class={style.icon} src="/assets/tech/javascript.svg" loading="lazy" />
 				<p>JavaScript</p>
 			</div>
