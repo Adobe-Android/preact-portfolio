@@ -1,7 +1,7 @@
 {
   "name": "David Brown - Software Developer Portfolio",
   "short_name": "David Brown - Portfolio",
-  "start_url": "/preact-portfolio/",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f6f6f6",

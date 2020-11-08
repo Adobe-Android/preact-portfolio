@@ -43,7 +43,7 @@ class TypedReactDemo extends Component {
 const Home = () => (
 	<div class={style.home}>
 		<div class={style.center}>
-			<img src="../../assets/images/portrait.jpg" alt="self portrait" loading="eager" class={style.portrait} width="300" height="300"></img>
+			<img src="/assets/images/portrait.jpg" alt="self portrait" loading="eager" class={style.portrait} width="300" height="300"></img>
 		</div>
 		<section class={style.center}>
 			<h1>David Brown</h1>
@@ -59,21 +59,21 @@ const Home = () => (
 		<div class={style.iconContainer}>
 			<div class={style.iconBlock}>
 				<a href="https://github.com/Adobe-Android">
-					<img title="GitHub" alt="GitHub" class={style.icon} src="../../assets/contact/github.svg" loading="lazy" />
+					<img title="GitHub" alt="GitHub" class={style.icon} src="/assets/contact/github.svg" loading="lazy" />
 				</a>
 				<p>GitHub</p>
 			</div>
 
 			<div class={style.iconBlock}>
 				<a href="https://www.linkedin.com/in/david-brown-811bab99">
-					<img title="LinkedIn" alt="LinkedIn" class={style.icon} src="../../assets/contact/linkedin.svg" loading="lazy" />
+					<img title="LinkedIn" alt="LinkedIn" class={style.icon} src="/assets/contact/linkedin.svg" loading="lazy" />
 				</a>
 				<p>LinkedIn</p>
 			</div>
 
 			<div class={style.iconBlock}>
 				<a href="mailto:dbrownproit@gmail.com">
-					<img title="Email" alt="Email" class={style.icon} src="../../assets/contact/email.svg" loading="lazy" />
+					<img title="Email" alt="Email" class={style.icon} src="/assets/contact/email.svg" loading="lazy" />
 				</a>
 				<p>Email</p>
 			</div>

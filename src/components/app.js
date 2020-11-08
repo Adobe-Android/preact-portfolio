@@ -14,8 +14,8 @@ const App = () => (
 		<Header />
 		<Router>
 			<Home path="/" />
-			<Profile path="/about/" />
-			<Tech path="/tech/" />
+			<Profile path="/preact-portfolio/about/" />
+			<Tech path="/preact-portfolio/tech/" />
 		</Router>
 		<Footer />
 	</div>
