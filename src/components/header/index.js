@@ -6,8 +6,8 @@ const Header = () => (
 	<header class={style.header}>
 		<nav>
 			<Link activeClassName={style.active} href="/">Home</Link>
-			<Link activeClassName={style.active} href="/preact-portfolio/about">About</Link>
-			<Link activeClassName={style.active} href="/preact-portfolio/tech">Tech</Link>
+			<Link activeClassName={style.active} href="/about">About</Link>
+			<Link activeClassName={style.active} href="/tech">Tech</Link>
 		</nav>
 	</header>
 );
